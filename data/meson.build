@@ -1,6 +1,5 @@
 metafile = meson.project_name() + '.metainfo.xml'
 i18n.merge_file(
-  'appdata',
   input: metafile + '.in',
   output: metafile,
   po_dir: join_paths(meson.source_root(), 'po'),
